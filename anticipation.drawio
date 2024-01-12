@@ -1,9 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T16:42:21.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.18" etag="saYcfHlsdzhhJhQTGD1F" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T18:16:24.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="0rbSU9uIIkq0UuVyoHCG" version="22.1.18" type="github">
   <diagram name="Página-1" id="n5dDX6f-PCiF2L6Hp_Dn">
-    <mxGraphModel>
+    <mxGraphModel dx="2527" dy="1449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#314354;fontColor=#ffffff;fillColor=#647687;" vertex="1" parent="1">
+          <mxGeometry y="62" width="825" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry width="827" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-7" value="&lt;font color=&quot;#030303&quot;&gt;Projeto Integrador antecipação de recebíveis&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=9;fillColor=#F7F8F9;align=left;spacingLeft=5;strokeColor=#DEE1E6;html=1;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="11" y="76.5" width="269" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-8" value="Fluxo de importação das operações de antencipação de recebíveis" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="11" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-10" value="&lt;h1&gt;Busca de operações&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;O apache airflow é o ponto de inicio da operaçåo, executando algumas dags (funções python) para consumir a api que busca operações&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="154" y="236" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="76" y="236" width="78" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_workflows_for_apache_airflow;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-11">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-9" value="Apache Airflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-11">
+          <mxGeometry x="9" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-12" target="ivHuvaGvxMNTKTxrWxrl-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="454" />
+              <mxPoint x="20" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-12" value="Dags - Algumas dags que consomem a api de operações periódicamente" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EBEBEB;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="40" y="416" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-9" target="ivHuvaGvxMNTKTxrWxrl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-14" target="ivHuvaGvxMNTKTxrWxrl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-14" value="Início" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-16" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="83.75" y="546" width="62.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-12" target="ivHuvaGvxMNTKTxrWxrl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-19" value="Api de operações" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86.25" y="606" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-16" target="ivHuvaGvxMNTKTxrWxrl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-12" target="ivHuvaGvxMNTKTxrWxrl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-24" value="&lt;h1&gt;Filas SQS&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Após consumir a api de operações , os dados são enviados para uma fila sqs para posterior consumo por um lambda function&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="456" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="415" width="78" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-22" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-26">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-25" value="Filas SQS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-26">
+          <mxGeometry x="9" y="76" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-22" target="ivHuvaGvxMNTKTxrWxrl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="670" width="69" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-27" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-30">
+          <mxGeometry width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-29" value="Lambda Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-30">
+          <mxGeometry x="4.5" y="72" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-31" value="&lt;h1&gt;Funções de processamento&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A medida que as operações vão sendo armazenada na fila elas vão sendo consumidas por uma lambda function que tem a responsabilidade de fazer o processamento dessas operações&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-34" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;" vertex="1" parent="1">
+          <mxGeometry x="670" y="251" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-27" target="ivHuvaGvxMNTKTxrWxrl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-39" value="&lt;h1&gt;Amarzenamento&lt;br&gt;&lt;/h1&gt;&lt;p&gt;As operações que chegam para processamento são armazenadas em um banco mongo usando o serviço da AWS Documentdb&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="251" width="200" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-40" target="ivHuvaGvxMNTKTxrWxrl-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-45" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ivHuvaGvxMNTKTxrWxrl-42">
+          <mxGeometry x="-0.2694" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-40" target="ivHuvaGvxMNTKTxrWxrl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-55" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ivHuvaGvxMNTKTxrWxrl-51">
+          <mxGeometry x="-0.2493" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-40" target="ivHuvaGvxMNTKTxrWxrl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-40" value="Processado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="446.75" y="810" width="95.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-41" target="ivHuvaGvxMNTKTxrWxrl-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-41" value="Contrato criado com sucesso no sistema Matera" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="825" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-43" value="Fim" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="745" y="815" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivHuvaGvxMNTKTxrWxrl-29" target="ivHuvaGvxMNTKTxrWxrl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-48" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="76.25" y="710" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-50" value="&lt;h1&gt;Dags&lt;/h1&gt;&lt;p&gt;As funções python que tem o objetivo de consumir os dados da api de operações e enviar para as filas ficam armazenadas no serviço da AWS S3&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="21.25" y="811" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264.5" y="808" width="79.5" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-53">
+          <mxGeometry width="79.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-52" value="SES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ivHuvaGvxMNTKTxrWxrl-53">
+          <mxGeometry x="9.75" y="93" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-54" value="&lt;h1&gt;E-mails de log&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Em caso de falha as operações são enviadas para uma fila sqs especifica e é enviado um email com o log sobre a geração da exceção&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="931" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ivHuvaGvxMNTKTxrWxrl-59" value="&lt;h1&gt;Contrato&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Caso a operação seja processada com sucesso então por consequência foi criado um contrato de antecipação no sistema Matera e o mesmo foi aprovado automaticamente pelo processo&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="895" width="190" height="155" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
